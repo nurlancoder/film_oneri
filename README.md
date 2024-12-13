@@ -1,42 +1,41 @@
-Film Öneri Programı
-Bu proje, kullanıcının girdiği film türüne göre uygun film önerileri sunan bir Python programıdır. Kullanıcı bir veya birden fazla tür girerek kendisine uygun filmleri listeleyebilir.
+**# Film Öneri Sistemi**
 
-Özellikler
-Tür Seçimi: Kullanıcıdan film türü girişi alır.
-Film Önerisi: Veritabanındaki filmleri kullanıcının belirttiği türlere göre filtreler.
-Rastgele Öneri: Uygun filmler arasından rastgele bir film önerir.
+**Bu Projenin Amacı:**
+Kullanıcıdan belirli bir film türünü alarak, uygun film önerileri sunan basit bir Python programıdır.
 
-Gereksinimler
-Python 3.x
+**Nasıl Çalışır?**
+1. Kullanıcıdan izlemek istediği film türü alınır.
+2. Film veritabanında bu türlere uygun filmler aranır.
+3. Uygun filmler listelenir ve rastgele bir film önerilir.
 
-Kurulum
-Bu projeyi yerel bilgisayarınıza klonlayın:
-git clone https://github.com/kullanici/film-oneri.git
+**Kullanım:**
+1. Python yüklü olduğundan emin olun.
+2. `film_oner.py` dosyasını çalıştırın.
+3. İstenen film türünü girin (Örneğin: `aksiyon, komedi, romantik`).
+4. Uygun filmler ve rastgele bir öneri ekranda görüntülenecektir.
 
-Proje dizinine gidin:
-cd film-oneri
+**Örnek Çalıştırma:**
 
-Nasıl Çalıştırılır?
-Programı çalıştırın:
-python film_oneri.py
-
-Film türünü girin. Örnek:
 Hangi türde film izlemek istersiniz? (Örnek: aksiyon, komedi, romantik, korku, animasyon): aksiyon, komedi
-Uygun filmler listelenir ve rastgele bir öneri sunulur.
 
-Örnek Çalıştırma
-Hangi türde film izlemek istersiniz? (Örnek: aksiyon, komedi, romantik, korku, animasyon): aksiyon, gerilim
-3 adet öneri bulundu:
+2 adet öneri bulundu:
+- Pulp Fiction
 - The Dark Knight
-- The Matrix
-- Inception
 
-Rastgele öneri: The Matrix
+Rastgele öneri: The Dark Knight
 
-Katkıda Bulunma
-Bu projeyi çatallayın (fork).
-Özellik ekleyin veya hata düzeltin.
-Değişikliklerinizi bir dalda yapın ve bir çekme isteği (pull request) gönderin.
 
-Lisans
-Bu proje MIT Lisansı ile lisanslanmıştır.
+**Gereksinimler:**
+- Python 3.x
+
+**Proje Dosyaları:**
+- `film_oner.py`: Ana kod dosyası
+
+**Katkı Sağlamak:**
+1. Projeyi çatallayın (Fork).
+2. Yeni özellikler ekleyin veya hata düzeltmeleri yapın.
+3. Değişikliklerinizi bir çekme isteği (Pull Request) ile gönderin.
+
+**Lisans:**
+Bu proje MIT lisansı ile lisanslanmıştır.
+
